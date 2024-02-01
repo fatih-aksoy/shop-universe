@@ -1,3 +1,11 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.bgcontainer {
+  background-image: url("https://img.freepik.com/premium-photo/online-shopping-e-ommerce-concept-online-shopping-background3d-rendering_1962-2429.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
+}
