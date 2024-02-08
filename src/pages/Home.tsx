@@ -14,6 +14,7 @@ import Card from "../components/Card";
 import { toastSuccessNotify, toastWarnNotify } from "../helper/ToastNotify";
 import Navbar from "../components/Navbar";
 
+
 const Home = () => {
   const [search, setSearch] = useState<string>("");
   const dispatch = useAppDispatch();

@@ -47,7 +47,7 @@ const About = () => {
                   My guitar cover
                 </a>
               </div>
-              <p className="text-2xl mt-5 leading-8">
+              <p className="text-2xl mt-5 leading-8 mb-3">
                 Join me at the intersection of creativity, education, and
                 cutting-edge technology as we shape the digital landscape and
                 make life easier in the digital world!

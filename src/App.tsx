@@ -8,6 +8,7 @@ import { store } from "./app/store";
 import { ToastContainer, Zoom } from "react-toastify";
 import Login from "./pages/Login";
 import About from "./pages/About";
+import Footer from "./components/Footer";
 
 function App() {
   return (
@@ -21,6 +22,7 @@ function App() {
             <Route path="/favorites" element={<FavoritesPages />} />
             <Route path="/about" element={<About />} />
           </Routes>
+          <Footer/>
         </BrowserRouter>
       </Provider>
       <ToastContainer transition={Zoom} />
